@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "html css js Project",
+			"path": "../html css js Project"
+		},
+		{
+			"name": "home",
+			"path": "."
+		},
+		{
+			"name": "todoList",
+			"path": "../todoList"
+		},
+		{
+			"name": "calculater",
+			"path": "../calculater"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "home"
+	}
+}
