@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background: linear-gradient(135deg, #ffffff, #63a0f7); 
+  color: #fff; 
+}
+
+/* Header Styles */
+header {
+  background-color: #282c34; 
+  padding: 10px 0; /* Add vertical padding */
+  position: sticky; 
+  top: 0; /* Stick to the top */
+  z-index: 100; /* Ensure header stays above other content */
+}
+
+/*Navbar Styles */
+.nav ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; 
+  margin: 0; 
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; 
+  align-items: center; 
+}
+
+.nav ul li {
+  margin: 0 15px; /* Add horizontal margin between items */
+}
+
+.nav ul li img {
+  vertical-align: middle; /* Align image vertically in the middle */
+  border-radius: 50%; 
+}
+
+
+.nav ul li a {
+  color: #ffffff; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+.nav ul li a:hover {
+ opacity: 0.3;
+}
+
+/* Main Area Styles */
+main {
+  padding: 20px; 
+  max-width: 600px; 
+  margin: auto; 
+  position: relative; /* Allow positioning of child elements */
+  overflow: hidden; /* Hide content that overflows */
+  
+}
+
+
+h2 {
+  text-align: center; 
+}
+
+/* Input Styles */
+.input-style {
+  display: block; 
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px; 
+  margin: 10px auto; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+/* Buttons Style */
+.buttons {
+  text-align: center; 
+}
+
+
+.buttons button {
+  background-color: #61dafb; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  margin: 10px; 
+}
+
+
+.buttons button:disabled {
+  background-color: #ccc; 
+}
+
+/* Footer Styles */
+footer {
+  background-color: #282c34; 
+  color: #fff; 
+  text-align: center; 
+  padding: 20px; 
+}
+#fontStyle {
+background-color: #000102;
+color: #fff;
+cursor: pointer;
+}
+#colorInput{
+cursor: pointer;
+background-color: #61dafb;
+
+}
